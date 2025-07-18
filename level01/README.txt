@@ -1,0 +1,6 @@
+in /etc/passwd we can read this line:
+...
+flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
+...
+
+using john-the-ripper on it, we found the possible password 'abcdefg' and it's working
