@@ -37,4 +37,5 @@ ssh level00@<IP_ADDRESS> -p 4242
 - level06: /e php operator
 - level07: shell  injection through environement variable
 - level08: symlink
-- level09: 
+- level09: reverse a shifted string
+- level10: on going
