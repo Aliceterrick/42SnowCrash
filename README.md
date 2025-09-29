@@ -34,4 +34,4 @@ ssh level00@<IP_ADDRESS> -p 4242
 - level03: setuid binary
 - level04: Exploit script pearl
 - level05: a cron script execute periodically all the scripts in a given directory
-- level06: \e php regex
+- level06: /e php regex
