@@ -15,3 +15,4 @@ It seems to be a caesar cripted password, if we try a python
 scrypt that apply an offset we found with an offset of +11 :
 
 nottoohardhere
+

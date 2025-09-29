@@ -4,7 +4,7 @@
 
 ## 📚 Project Overview
 
-**SnowCrash** is an individual project at 42 that aims to familiarize students with common security flaws found in Linux systems. You will be working on a virtual machine where you must escalate your privileges from `level00` to the final level, using various exploitation techniques.
+**SnowCrash** is a team project at 42 that aims to familiarize students with common security flaws found in Linux systems. You will be working on a virtual machine where you must escalate your privileges from `level00` to the final level, using various exploitation techniques.
 
 Each level presents a vulnerable user account with a specific weakness. Your goal is to identify and exploit that weakness in order to retrieve the password for the next level.
 
@@ -32,4 +32,6 @@ ssh level00@<IP_ADDRESS> -p 4242
 - level01: Hashed password
 - level02: Wireshark analyze
 - level03: setuid binary
-- level04: On going
+- level04: Exploit script pearl
+- level05: a cron script execute periodically all the scripts in a given directory
+- level06: \e php regex
