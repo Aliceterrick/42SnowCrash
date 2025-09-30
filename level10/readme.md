@@ -135,3 +135,8 @@ However, is there is a better way do to this ?
 Reading the code again we can see that the binary first connects to the host before opening the file. This means we have a way to control the timing between access and open.
 
 ![interaction](interaction.webp)
+
+Once the exploit written and run, we get the token.
+
+And we lived happily ever after.
+The end.
