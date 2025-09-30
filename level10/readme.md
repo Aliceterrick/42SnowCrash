@@ -115,7 +115,7 @@ There is still one catch here. The file must be readonly, not executable nor wri
 
 ## Second step
 
-Reading access documentation we get: `Warning:  Using  access() to check if a user is authorized to, for example, open a file before actually doing so using open(2) creates a security hole, because the user might exploit the short time interval between checking and opening the
+Reading access documentation (`man 2 access`) we get: `Warning:  Using  access() to check if a user is authorized to, for example, open a file before actually doing so using open(2) creates a security hole, because the user might exploit the short time interval between checking and opening the
        file to manipulate it.  For this reason, the use of this system call should be avoided.  (In the example just described, a safer alternative would be to temporarily switch the process's effective user ID  to  the  real  ID  and  then  call
        open(2).)`
 Which means that we can modify the file between the use of access and open. We will use a symlink to do so.
