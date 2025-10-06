@@ -2,7 +2,7 @@ in the current folder we found a level02.pcap
 
 we use SCP to download it:
 
-scp -P 4243 scp://level02@127.0.0.1/level02.pcap .
+`scp -P 4243 scp://level02@127.0.0.1/level02.pcap .`
 
 analyzing the file with wireshark we found the entry:
 
