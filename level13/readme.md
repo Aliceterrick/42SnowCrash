@@ -11,6 +11,7 @@ this binary once decompiled look like this.
 #include <stdio.h>
 
 typedef unsigned int uint;
+typedef unsigned char byte;
 
 char * ft_des(char *param_1)
 {
@@ -96,6 +97,7 @@ The solution is just to use the source we just got from decompiling this program
 #include <stdio.h>
 
 typedef unsigned int uint;
+typedef unsigned char byte;
 
 char * ft_des(char *param_1)
 {
@@ -164,5 +166,7 @@ void main(void)
 }
 
 ```
+
+![](ft_des.webp)
 
 done
